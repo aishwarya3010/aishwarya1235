@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="./jquery-3.5.1.js"></script>
+  <script src="./texteditor.js"></script>
+  <link rel="stylesheet" href="./bootstrap-4.5.3-dist/css/bootstrap.min.css">
+ <script src="./Rich-Text-Editor-jQuery-RichText//src/jquery.richtext.min.js"></script>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./Rich-Text-Editor-jQuery-RichText/src/richtext.min.css">
+  
+</head>
+<body>
+ 
+  
+<div id="texteditor">
+  <div class="input-group">    
+    <select title="category" class="custom-select" id="category"> 
+      <option>Travel</option> 
+      <option>Fashion</option> 
+      <option>Technology</option> 
+      <option>Motivation</option>
+      <option>Education</option>
+      <option>Nature</option>
+      </select>    
+    <input type="text" id="title" class="form-control" placeholder="Enter Title of the Blog Here"/>
+</div>
+ <input type="text" id="image" class="form-control" placeholder="Enter Image url"/>  
+  <textarea class="content" name="example"></textarea>
+ <button type="button" class="btn btn-large btn-block btn-default" id="post">Post</button>
+  
+
+
+
+</div>
+ 
+  <div class="container">
+    <h1 class="my-4">Page Heading
+      <small>Secondary Text</small>
+    </h1>
+        <div class="row">
+           <div id="show" class="col-md-8">
+          </div>
+          <div id="filter" class="col-md-8">
+          </div>
+          <div class="col-md-4">
+            <div class="card my-4">
+              <h5 class="card-header">Categories</h5>
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <ul class="list-unstyled mb-0">
+                      <li>
+                        <a href="#" class="categoryFilter">Travel</a>
+                      </li>
+                      <li>
+                        <a href="#" class="categoryFilter">Fashion</a>
+                      </li>
+                      <li>
+                        <a href="#" class="categoryFilter">Nature</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-6">
+                    <ul class="list-unstyled mb-0">
+                      <li>
+                        <a href="#" class="categoryFilter">Technology</a>
+                      </li>
+                      <li>
+                        <a href="#" class="categoryFilter">Motivation</a>
+                      </li>
+                      <li>
+                        <a href="#" class="categoryFilter">Education</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        
+         </div> 
+
+  </div>
+
+<button type="button" class="btn btn-large btn-block btn-success" id="createBlog">Create Blog</button>
+
+   
+
+    
+
+
+  
+</body>
+</html>

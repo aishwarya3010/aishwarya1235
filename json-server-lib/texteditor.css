@@ -1,0 +1,8 @@
+@import'./bootstrap-4.5.3-dist/css/bootstrap.css';
+
+.nav-pills{
+width: 500px;
+}
+#home{
+display: inline-block;
+}
